@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Administrador
+comment1.params=frame
+comment1.target=Administrador(javax.swing.JFrame)
+comment1.text=\r\n\ Construtor\ Gr\u00E1fico\ da\ Janela\ pertencente\ ao\ Administrador\r\n\ \r\n\ @param\ (frame)\ Janela\ onde\ ser\u00E1\ poss\u00EDvel\ criar\ uma\ Janela\ do\ Administrador\r\n
+numComments=2

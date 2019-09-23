@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=AddMembro
+comment0.text=\r\n\ Classe\ que\ define\ a\ Janela\ Relativa\ ao\ Menu\ de\ Adi\u00E7\u00E3o\ de\ Contribuinte\ ao\ Agregado\ Familiar\r\n
+comment1.params=frame
+comment1.target=AddMembro(javax.swing.JDialog)
+comment1.text=\r\n\ Construtor\ Gr\u00E1fico\ de\ Menu\ de\ Adi\u00E7\u00E3o\ de\ Contribuinte\ ao\ Agregado\ Familiar\r\n
+numComments=2

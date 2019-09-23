@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Querys
+comment1.params=nifE
+comment1.target=java.util.ArrayList\ getContribuintesEmp(long)
+comment1.text=\r\n\ Metodo\ que\ vai\ obter\ todos\ os\ contribuintes\ que\ foram\ faturados\ por\ uma\ empresa\r\n\ \r\n\ @param\ (nifE)\ O\ nif\ da\ empresa\ da\ qual\ se\ quer\ saber\ os\ contribuintes\r\n\ \r\n\ @returns\ Uma\ ArrayList\ com\ os\ nif's\ dos\ contribuintes\r\n
+comment2.params=nifE\ nifC\ begin\ end
+comment2.target=java.util.ArrayList\ getFatContribuinte(long,\ long,\ java.time.LocalDate,\ java.time.LocalDate)
+comment2.text=\r\n\ Metodo\ que\ vai\ obter\ as\ faturas\ emitidas\ por\ uma\ empresa\ a\ um\ contribuinte\ num\ certo\ intervalo\ de\ tempo\r\n\ \r\n\ @param\ (nifE)\ O\ nif\ da\ empresa\ \r\n\ @param\ (nifC)\ O\ nif\ do\ contribuinte\r\n\ @param\ (begin)\ LocalDate\ que\ corresponde\ ao\ inicio\ do\ intervalo\ de\ tempo\r\n\ @param\ (end)\ LocalDate\ que\ corresponde\ ao\ fim\ do\ intervalo\ de\ tempo\r\n\ \r\n\ @return\ Um\ ArrayList\ com\ as\ Faturas\ desse\ contribuinte\ no\ intervalo\ de\ tempo\r\n
+comment3.params=nifE\ nifC
+comment3.target=java.util.ArrayList\ getFatSorted(long,\ long)
+comment3.text=\r\n\ Metodo\ que\ vai\ obter\ as\ faturas\ emitidas\ por\ uma\ Empresa\ a\ um\ certo\ contribuinte\ ordenadas\ pelo\ seu\ pre\u00E7o\ total\r\n\r\n\ @param\ (nifE)\ O\ nif\ da\ empresa\ \r\n\ @param\ (nifC)\ O\ nif\ do\ contribuinte\r\n\r\n\ @return\ Um\ ArrayList\ com\ as\ faturas\ ordenadas\ pelo\ pre\u00E7o\ total\ de\ forma\ decrescente\r\n
+comment4.params=time\ type
+comment4.target=java.time.LocalDate\ getTime(java.lang.String,\ int)
+comment4.text=\r\n\ Metodo\ que\ vai\ transformar\ as\ datas\ lidas\ nos\ textfields\ em\ LocalDate\r\n\r\n\ @param\ (time)\ A\ String\ lida\ com\ as\ datas\r\n\ @param\ (type)\ A\ data\ que\ se\ quer\ obter\ a\ partir\ da\ String\ //\ 1\ \=\ Inicio\ //\ 2\ \=\ Fim\r\n\r\n\ @return\ Uma\ LocalDate\r\n
+comment5.params=nif\ begin\ end
+comment5.target=double\ getTotalFaturadoOut(long,\ java.time.LocalDate,\ java.time.LocalDate)
+comment5.text=\r\n\ Metodo\ que\ obter\ o\ quanto\ foi\ faturado\ por\ uma\ empresa\ nas\ suas\ compras\ dentro\ de\ um\ intervalo\ de\ tempo\r\n\r\n\ @param\ (nif)\ O\ nif\ da\ Empresa\r\n\ @param\ (begin)\ LocalDate\ que\ corresponde\ ao\ inicio\ do\ intervalo\ de\ tempo\r\n\ @param\ (end)\ LocalDate\ que\ corresponde\ ao\ fim\ do\ intervalo\ de\ tempo\ da\ String\ //\ 1\ \=\ Inicio\ //\ 2\ \=\ Fim\r\n\r\n\ @return\ Um\ double\ com\ o\ total\ faturado\r\n
+comment6.params=nif\ begin\ end
+comment6.target=double\ getTotalFaturadoIn(long,\ java.time.LocalDate,\ java.time.LocalDate)
+comment6.text=\r\n\ Metodo\ que\ obter\ o\ quanto\ foi\ faturado\ por\ uma\ empresa\ nas\ suas\ vendas\ dentro\ de\ um\ intervalo\ de\ tempo\r\n\r\n\ @param\ (nif)\ O\ nif\ da\ Empresa\r\n\ @param\ (begin)\ LocalDate\ que\ corresponde\ ao\ inicio\ do\ intervalo\ de\ tempo\r\n\ @param\ (end)\ LocalDate\ que\ corresponde\ ao\ fim\ do\ intervalo\ de\ tempo\ da\ String\ //\ 1\ \=\ Inicio\ //\ 2\ \=\ Fim\r\n\r\n\ @return\ Um\ double\ com\ o\ total\ faturado\r\n
+comment7.params=
+comment7.target=java.util.TreeMap\ getTop10()
+comment7.text=\r\n\ Metodo\ que\ vai\ obter\ os\ top\ contribuintes\ que\ mais\ gastaram\r\n\r\n\ @return\ Um\ TreeMap\ com\ os\ contribuintes\ que\ mais\ gastaram\ ordenados\r\n
+comment8.params=
+comment8.target=java.util.TreeMap\ getXEmpresas()
+comment8.text=\r\n\ Metodo\ que\ vai\ obter\ as\ Top\ Empresas\ com\ mais\ faturas\r\n\r\n\ @return\ Um\ TreeMap\ com\ as\ Empresas\ que\ mais\ faturas\ tem\ ordenadas\r\n
+numComments=9

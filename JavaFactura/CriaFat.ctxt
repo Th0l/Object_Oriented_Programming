@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CriaFat
+comment0.text=\r\n\ Classe\ que\ define\ a\ Janela\ Relativa\ ao\ Menu\ de\ cria\u00E7\u00E3o\ de\ uma\ Nova\ Fatura\r\n
+comment1.params=frame\ n
+comment1.target=CriaFat(javax.swing.JDialog,\ long)
+comment1.text=\r\n\ COnstrutor\ Gr\u00E1fico\ da\ Janela\ Relativa\ ao\ Menu\ de\ cria\u00E7\u00E3o\ de\ uma\ Nova\ Fatura\r\n
+numComments=2

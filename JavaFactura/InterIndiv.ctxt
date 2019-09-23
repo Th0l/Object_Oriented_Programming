@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=InterIndiv
+comment1.params=frame\ n
+comment1.target=InterIndiv(javax.swing.JFrame,\ long)
+numComments=2

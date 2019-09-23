@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=CriaInd
+comment0.text=\r\n\ Classe\ que\ define\ a\ Janela\ Relativa\ ao\ Menu\ de\ Adi\u00E7\u00E3o\ de\ um\ Contribuinte\ Individual\r\n
+comment1.params=frame
+comment1.target=CriaInd(javax.swing.JDialog)
+comment1.text=\r\n\ Construtor\ Gr\u00E1fico\ do\ Menu\ de\ Adi\u00E7\u00E3o\ de\ um\ Contribuinte\ Individual\r\n
+numComments=2
